@@ -23,7 +23,7 @@ const Dock = () => {
 
             gsap.to(icon, {
                 scale: 1 + 0.25 * intensity,
-                Y: -15 * intensity,
+                y: -15 * intensity,
                 duration: 0.2,
                 ease: 'power1.out'
             })
